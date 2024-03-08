@@ -1,0 +1,16 @@
+{
+  "name": "clean_cypress",
+  "version": "1.0.0",
+  "description": "only cypress, no web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.6",
+    "perfecto-cypress-reporter": "^0.0.13",
+    "perfecto-cypress-sdk": "^0.0.59"
+  }
+}

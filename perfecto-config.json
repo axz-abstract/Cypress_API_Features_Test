@@ -1,0 +1,49 @@
+{
+  "credentials": {
+    "cloud": "trial",
+    "securityToken": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI2ZDM2NmJiNS01NDAyLTQ4MmMtYTVhOC1kODZhODk4MDYyZjIifQ.eyJpYXQiOjE3MDkzMTg4ODYsImp0aSI6ImI1YzRmYTUxLThkOWMtNDUyZC05YzRhLTA1MWQ0NTI3M2QwMCIsImlzcyI6Imh0dHBzOi8vYXV0aDMucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL3RyaWFsLXBlcmZlY3RvbW9iaWxlLWNvbSIsImF1ZCI6Imh0dHBzOi8vYXV0aDMucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL3RyaWFsLXBlcmZlY3RvbW9iaWxlLWNvbSIsInN1YiI6Ijc3YWY5ZTNmLTYzZWEtNDNkMy04N2IyLTRhZTQzYjk1NGIzMyIsInR5cCI6Ik9mZmxpbmUiLCJhenAiOiJvZmZsaW5lLXRva2VuLWdlbmVyYXRvciIsIm5vbmNlIjoiYWU2NDY2NzYtMThkNi00M2Y5LThkNjctYjc2NWRhOWM0NGNjIiwic2Vzc2lvbl9zdGF0ZSI6ImM2OWQ4Y2VlLWE4MWItNDAzMi1hM2E0LWE1NDU0ZDQzZjI2OSIsInNjb3BlIjoib3BlbmlkIG9mZmxpbmVfYWNjZXNzIHByb2ZpbGUgZW1haWwifQ.eSyyEA3Gz_nFntSZhI1TgLC7-uK1IrqoWFabsJnl-RA"
+  },
+  "capabilities": [
+    {
+      "deviceType": "Web",
+      "platformName": "Windows",
+      "platformVersion": "10",
+      "browserName": "Chrome",
+      "browserVersion": "latest",
+      "resolution": "1024x768",
+      "location": "US East",
+      "maxNumOfDevices": 1
+    }
+  ],
+  "env": {
+    "CYPRESS_PAGE_LOAD_TIMEOUT": "10000"
+  },
+  "framework": "CYPRESS",
+  "scriptName": "API_Tests_sample",
+  "nodeVersion": "20",
+  "tests": {
+    "path": "./cypress/e2e/AlternativeTest",
+    "artifactKey": "",
+    "ignore": [
+      "**/screenshots/**",
+      "**/videos/**"
+    ],
+    "specsExt": "**/*.+(cy|spec).js"
+  },
+  "reporting": {
+    "job": {
+      "name": "cypress_first_job",
+      "number": 1,
+      "branch": ""
+    },
+    "project": {
+      "name": "My_Cypress_project",
+      "version": "v1.0"
+    },
+    "customFields": [],
+    "author": "sdet1@awesomecompany.com",
+    "tags": [
+      "cypress"
+    ]
+  }
+}
